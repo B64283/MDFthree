@@ -25,7 +25,9 @@ import static com.example.matthewdarke.mymappingphotos.MyMapFragment.TAG;
 import static com.example.matthewdarke.mymappingphotos.MyMapFragment.newInstance;
 
 
-
+/**
+ * Created by matthewdarke on 3/24/15.
+ */
 
 
 
