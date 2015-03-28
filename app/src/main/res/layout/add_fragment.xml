@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@android:color/holo_green_light"
+                tools:context=".AddFragment"
+                android:id="@+id/fragment_add_id"
+    >
+
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text= "          Add Contact"
+        android:id="@+id/textView3"
+        android:textSize="16pt"
+
+        android:background="#ff525454"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ff7cad03"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:id="@+id/b_add"
+
+        android:background="#ff494946"
+
+        android:textColor="#ff32ad0c"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_edit"
+        android:hint="Enter Name"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button2"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Enter Address"
+        android:layout_below="@+id/name_edit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp"
+        android:layout_alignEnd="@+id/button2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewPic"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/b_add"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Pic"
+        android:id="@+id/buttonPic"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true"/>
+
+
+</RelativeLayout>
